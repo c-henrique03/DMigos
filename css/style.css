@@ -61,7 +61,8 @@ main{
     color: cornsilk;
 }
 h2{
-    font-size: 52px;
+    font-family: 'Staatliches', cursive;
+    font-size: 60px;
     padding: 2rem;
     /* background-color: chartreuse; */
 
