@@ -1,7 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 body{
     padding: 0;
     margin: 0;
     border: 0; 
     box-sizing: border-box;
     background-color: #D93B58;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 10vh 90vh ;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+
+}
+.logo{
+    text-decoration: none;
+    font-family: 'Staatliches', cursive;
+    color: #BFBFBD;
+    background-color: #594E40;
+    padding-left: 4rem;
+    padding-right: 10px;
+    font-size: 52px;
+}
+.link-nav{
+    text-decoration: none;
+    font-family: 'Varela Round', sans-serif;
+    color: rgb(241, 241, 241);
+    font-size: 22px;
+    padding: 1rem;
+}
+.nav-bar{
+    background-color: lightcoral;
+    padding-right: 2rem;
+}
+
+main{
+    display: flex;
+    background-color: greenyellow;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.texto{
+    width: 40%;
+    height: 80%;
+    background-color: hotpink;
+}
+
+.img1{
+    width: 40%;
+    height: 80%;
+    background-color: indigo;
 }
