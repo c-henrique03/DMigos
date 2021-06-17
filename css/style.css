@@ -51,13 +51,26 @@ header{
 
 main{
     display: grid;
-    grid-template-columns: auto 50vw;
+    grid-template-columns: 50vw 50vw;
 
 }
 .texto{
     /* background-color: hotpink; */
+    height: 75vh;
+    align-self: flex-end;
+    color: cornsilk;
 }
+h2{
+    font-size: 52px;
+    padding: 2rem;
+    /* background-color: chartreuse; */
 
+}
+p{
+    font-size: 36px;
+    padding: 2rem;  
+    /* background-color: chocolate; */
+}
 .img1{
     /* background-color: indigo; */
     align-self: flex-end;
