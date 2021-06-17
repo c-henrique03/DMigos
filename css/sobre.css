@@ -14,7 +14,7 @@ img{
 }
 .container{
     display: grid;
-    grid-template-rows: 10vh 90vh ;
+    grid-template-rows: 10vh 80vh 10vh ;
 }
 
 header{
@@ -46,4 +46,35 @@ header{
 
 .nav-bar{
     padding-right: 10rem;
+}
+h1{
+    font-family: 'Staatliches', cursive;
+    font-size: 32px;
+    padding: 30px 100px;
+    color: white;
+}
+.texto{
+    width: 80%;
+    height: 70%;
+    font-size: 26px;
+    padding: 0px 100px;
+    color: white;
+}
+footer{
+    /* background-color: greenyellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+footer p{
+    font-weight: 700;
+    padding: 0px 100px;
+
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 0px 100px;
 }
