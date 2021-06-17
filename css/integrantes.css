@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    border: 0; 
+    box-sizing: border-box;
+    background-image: linear-gradient(#D93B58, #8C1C31);
+    font-family: 'Quicksand', sans-serif;
+}
+img{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+.container{
+    display: grid;
+    grid-template-rows: 10vh 86vh 4vh ;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    text-decoration: none;
+    font-family: 'Staatliches', cursive;
+    color: #BFBFBD;
+    background-color: #594E40;
+    padding-left: 4rem;
+    padding-right: 10px;
+    font-size: 52px;
+}
+.link-nav{
+    text-decoration: none;
+    font-weight: 500;
+    color: rgb(241, 241, 241);
+    font-size: 22px;
+    padding: 1rem;
+}
+
+.link-nav:hover{
+    color: #8C1C31 ;
+}
+
+.nav-bar{
+    padding-right: 10rem;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nego{
+    width: 28vw;
+    height: 80vh;
+    display: block;
+    background-color: #594E40 ;
+    border-radius: 20px;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.534);
+    color: blanchedalmond;
+}
+h2{
+    padding: 0px 32px;
+    font-size: 28px;
+    background-color: #8C1C31;
+    
+}
+.nego p{
+    font-size: 18px;
+    padding: 0px 32px;
+}
+
+footer{
+    /* background-color: greenyellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+footer p{
+    font-weight: 700;
+    padding: 0px 100px;
+
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 0px 100px;
+}
