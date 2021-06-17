@@ -6,7 +6,7 @@ body{
     margin: 0;
     border: 0; 
     box-sizing: border-box;
-    background-color: #D93B58;
+    background-image: linear-gradient(#D93B58, #8C1C31);
     font-family: 'Quicksand', sans-serif;
 }
 img{
@@ -55,7 +55,7 @@ main{
 
 }
 .texto{
-    background-color: hotpink;
+    /* background-color: hotpink; */
 }
 
 .img1{
